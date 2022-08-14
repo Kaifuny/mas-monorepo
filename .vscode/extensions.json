@@ -1,7 +1,13 @@
 {
-  "recommendations": [
-    
-    "nrwl.angular-console",
-    "esbenp.prettier-vscode"
-  ]
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "zxh404.vscode-proto3",
+        "2gua.rainbow-brackets",
+        "christian-kohler.path-intellisense",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "editorconfig.editorconfig",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint"
+    ]
 }

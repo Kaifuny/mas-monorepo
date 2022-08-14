@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+ts-node common/scripts/verify-commit.ts "$*" || {
+  echo
+  echo "commit-msg hook failed (add --no-verify to bypass)"
+  exit 1
+}

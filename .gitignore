@@ -37,3 +37,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# python caches
+**/__pycache__
+**/.mypy_cache
+**/.pytest_cache
+
+# python venv
+.venv
