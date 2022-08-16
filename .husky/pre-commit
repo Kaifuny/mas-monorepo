@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+nx affected --target=lint --parallel || {
+  echo
+  echo "pre-commit hook failed on lint affected files (add --no-verify to bypass)"
+  exit 1
+}

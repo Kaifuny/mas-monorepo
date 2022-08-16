@@ -32,9 +32,18 @@ module.exports = {
                     },
                     {
                         selector: "typeLike",
-                        format: ["StrictPascalCase"],
+                        format: ["PascalCase"],
                         leadingUnderscore: "forbid",
                         trailingUnderscore: "forbid"
+                    },
+                    // enforce interface to start with I, such as IPojo
+                    {
+                        selector: "interface",
+                        format: ["PascalCase"],
+                        custom: {
+                            regex: "^I[A-Z]",
+                            match: true
+                        }
                     },
                     // A global const function (arrow function) is considered to be a react component
                     {
