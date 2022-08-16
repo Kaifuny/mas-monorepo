@@ -88,3 +88,13 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
+
+### 思路
+
+#### 解决痛点
+
+    - less 编译慢问题
+    - less 无法管理主题色问题
+
+solution: 使用 `StyledComponents` + `ConfigProvider.config({theme}) (antd)` 的方式管理样式 `(css in js)`

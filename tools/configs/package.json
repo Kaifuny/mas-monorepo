@@ -1,0 +1,29 @@
+{
+    "name": "@mas/configs",
+    "version": "1.0.0",
+    "description": "This package is used to manage commonly used configurations",
+    "module": "dist/esm/index.js",
+    "author": {
+        "name": "Chongyi Xu",
+        "email": "johnny.xcy1997@outlook.com"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=16.16.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "@typescript-eslint/parser": "^5.33.1",
+        "eslint": "^8.22.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-airbnb-typescript": "^17.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.4.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.8.3",
+        "eslint-plugin-react": "^7.30.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-redux": "^4.0.0"
+    }
+}
